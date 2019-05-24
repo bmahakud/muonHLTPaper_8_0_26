@@ -33,5 +33,10 @@ HLTAnalyzerEndpath \
 --input file:/afs/cern.ch/user/k/kplee/work/public/ROOTFile_Test/RAW_SingleMuon_Run2016H_Run284044.root \
 --process MYHLT --full --offline \
 --l1-emulator uGT \
---prescale none --max-events 100 --output none > HLTCfgData_Mu.py
+--prescale none --max-events 100 --output none > HLTCfg2016Data_Mu.py
 ```
+
+You can look inside of the file HLTCfg2016Data_Mu.py to see the lines of code needed to write to the ntuple.
+
+
+
