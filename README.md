@@ -3,7 +3,7 @@ This setup is tested in cmslpc. Should work in lxplus too.
 
 ```
 cmsrel CMSSW_8_0_29 
-# please not this cmsrel version is different from the name of the repository. The name of repository should be 8_0_29 to be consistent but that was a typo. 
+# please note, this cmsrel version is different from the name of the repository. The name of repository should be 8_0_29 to be consistent but that was a typo. 
 cd src
 cmsenv
 git cms-addpkg HLTrigger/Configuration
