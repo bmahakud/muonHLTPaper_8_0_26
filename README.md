@@ -1,4 +1,4 @@
-# Simplified setup for muonHLTPaper for plots using CMSSW_8_0_26 (2016 data and MC)
+# Simplified setup for muonHLTPaper for plots using CMSSW_8_0_29 (2016 data and MC)
 This setup is tested in cmslpc. Should work in lxplus too. 
 
 ```
