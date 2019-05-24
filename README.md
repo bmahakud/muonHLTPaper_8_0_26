@@ -38,5 +38,39 @@ HLTAnalyzerEndpath \
 
 You can look inside of the file HLTCfg2016Data_Mu.py to see the lines of code needed to write to the ntuple.
 
+If you endup with a  succesful cmsRun crabjobs could be submitted using CrabConfig_DataD_v2.py 
+# Crab submission 
+```
+crab submit -c CrabConfig_DataH_v1.py   #change the output file location inside this file.
+```
+# Ntuple location 
+Some ntuples can be found in the following directory. At the time of documenting this (May 24 2019) jobs were still running.
+/eos/uscms/store/user/bmahakud/muHLTPaper_SingleMu_PromptReco2016H_v1_test4/.. . 
+
+
+
+# Getting the L3/L1 efficiency plots fot the paper.
+you need to run three macros after putting the input  files correctly. Codes are located inside the dir "Tools/Macros/CascadeNTkMu/" For running on Cascade
+```
+root -l readNtuplesPre_Cascade.C
+
+```
+For running TkMu
+
+
+```
+root -l readNtuplesPre_TkMu.C
+```
+
+for running CascadeORTkMU
+```
+root -l readNtuplesPre_CascadeAndTkMu.C
+```
+This will produce three different root files containing efficiency histograms, which could be plotted in diffrent styles.
+
+
+
+
+
 
 
